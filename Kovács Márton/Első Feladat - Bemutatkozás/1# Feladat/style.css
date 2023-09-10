@@ -1,0 +1,20 @@
+body{
+    background-color: lightslategrey;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(50, 50, 50);
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(50, 50, 50);
+}
+
+p {
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+}
