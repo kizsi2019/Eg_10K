@@ -1,0 +1,11 @@
+mondat = input("mondatot")
+if mondat[-1] == '?':
+    print("kérdő")
+elif mondat[-1] == '.':
+    print("kijelentő")
+elif mondat[-1] == '!':
+    print("kijelentő vagy atobbi")
+else:
+    print("nem irtal mondat véget")
+
+    
