@@ -488,5 +488,3 @@ if list:
     print(f'A legnagyobb szó a listában: {legnagyobb}')
 else:
     print("Nem adtál meg szavakat.")
-
-
