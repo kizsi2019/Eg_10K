@@ -1,0 +1,8 @@
+import random
+fej =random.randint(1,2)
+szam=int(input('1/2'))
+if szam == fej:
+    print("2jo")
+else:
+    print("nem jo")
+print (fej)
