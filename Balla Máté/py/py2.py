@@ -435,6 +435,7 @@ while index < len(szavak) and not talalat:
     A SZÉLSŐÉRTÉK MEGHATÁROZÁSA esetében azt vizsgáljuk, hogy melyik a legkisebb, 
     illetve a legnagyobb érték az adatsorban (itt a listában).
 '''
+'''
 lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
 
 legkisebb = lista[0]
@@ -450,9 +451,42 @@ print(f'A legnagyobb szám a listában: {legnagyobb}')
 
 lista = []
 szam = input("Adj meg eg szamot")
-while szam !="x" or szam !="X" :
-  if int(lista) % 2 ==0:
-    lista.append(int(szam))
+while szam !="x" and szam !="X":
+  lista.append(int(szam))
   szam = input("adj meg egy egész számot")
 print(lista)
+legkisebb = lista[0]
+legnagyobb = lista[0]
+
+for szam in lista:
+	if szam < legkisebb and szam % 2 ==0:
+		legkisebb = szam
+	if szam > legnagyobb and szam % 2 ==0:
+		legnagyobb = szam
+
+print(f'A legkisebb szám a listában: {legkisebb}')
+print(f'A legnagyobb szám a listában: {legnagyobb}')  
+
+'''
+list = []
+szo = input("Adj meg szavakat: ")
+
+while szo != "":
+    list.append(szo)
+    szo = input("Adj meg szavakat: ")
+
+if list:
+    legkisebb = legnagyobb = list[0]
+
+    for szavak in list:
+        if len(szavak) < len(legkisebb):
+            legkisebb = szavak
+        if len(szavak) > len(legnagyobb):
+            legnagyobb = szavak
+
+    print(f'A legkisebb szó a listában: {legkisebb}')
+    print(f'A legnagyobb szó a listában: {legnagyobb}')
+else:
+    print("Nem adtál meg szavakat.")
+
 
