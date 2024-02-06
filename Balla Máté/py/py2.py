@@ -103,7 +103,7 @@ honapok = ['január', 'február','március', 'április', 'május', 'június']
 for index, honap in enumerate(honapok):
   print(index, honap)
 a = []
-''' 
+
 
 
 szam_lista = []
@@ -111,7 +111,7 @@ for i in range(1,41):
   if i % 3 ==0:
       szam_lista = i
       print(szam_lista)
-''' 
+
 
 szavak = ['asztal', 'lámpa', 'ablak', 'kutya', 'alma', 'kukta', 'tesla']
 T_lista = []
@@ -367,7 +367,8 @@ if szam2 in list:
 else:
   list.append(szam2)
   print(list)
-'''
+
+
 
 szo = input(str("adj meg egy szót"))
 
@@ -384,5 +385,73 @@ while index < len(szo2) and not talalat:
     break
   
 
+    A SZÁMLÁLÁS esetében azt vizsgáljuk, hogy egy bizonyos tulajdonságú elemből 
+    hány darab van az adatsorban (itt a listában).
 
-    
+    A program azt vizsgálja, hogy hány darab hárommal osztható szám van a listában.
+   
+lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
+
+darab = 0
+for szam in lista:
+	if szam % 3 == 0:
+		darab = darab + 1
+
+print('A listában lévő hárommal osztható számok száma: ', darab)  
+  
+
+
+import random
+
+list= []
+list_paros= []
+for i in range(5):
+  szam = random.randint(1,10)
+  list.append(szam)
+  if szam % 2 == 0:
+    list_paros.append(szam)
+
+print(list)
+print(list_paros)
+ '''
+'''
+szavak = ["alma","retek","répa","mogyoro","asztal"]
+darab = 0 
+for betu in szavak:
+  if betu[0] == "a" or betu[0] == "A":
+    darab = darab + 1
+    print(betu)
+print(darab)
+
+talalat = False
+index = 0
+while index < len(szavak) and not talalat:
+        if szavak[index]  == 0:
+            talalat = True
+        index = index + 1 
+
+'''
+'''
+    A SZÉLSŐÉRTÉK MEGHATÁROZÁSA esetében azt vizsgáljuk, hogy melyik a legkisebb, 
+    illetve a legnagyobb érték az adatsorban (itt a listában).
+'''
+lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
+
+legkisebb = lista[0]
+legnagyobb = lista[0]
+for szam in lista:
+	if szam < legkisebb:
+		legkisebb = szam
+	if szam > legnagyobb:
+		legnagyobb = szam
+
+print(f'A legkisebb szám a listában: {legkisebb}')
+print(f'A legnagyobb szám a listában: {legnagyobb}')  
+
+lista = [
+]
+szam = input("Adj meg eg szamot")
+while szam !="":
+  lista.append(int(szam))
+  szam = input("adj meg egy egész számot")
+print(lista)
