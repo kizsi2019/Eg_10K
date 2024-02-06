@@ -448,10 +448,11 @@ for szam in lista:
 print(f'A legkisebb szám a listában: {legkisebb}')
 print(f'A legnagyobb szám a listában: {legnagyobb}')  
 
-lista = [
-]
+lista = []
 szam = input("Adj meg eg szamot")
-while szam !="":
-  lista.append(int(szam))
+while szam !="x" or szam !="X" :
+  if int(lista) % 2 ==0:
+    lista.append(int(szam))
   szam = input("adj meg egy egész számot")
 print(lista)
+
