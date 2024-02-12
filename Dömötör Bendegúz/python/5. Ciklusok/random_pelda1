@@ -1,0 +1,11 @@
+import random
+ertek = random.randint(1,3)
+if ertek == 1:
+    erme = "fej"
+else:
+    erme = "iras"
+bekerdezes = input("Fej vagy írás?")
+if bekerdezes == erme:
+    print("TALÁLAT")
+else:
+    print("GATYA")
