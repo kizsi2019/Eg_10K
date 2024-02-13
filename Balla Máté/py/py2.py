@@ -590,8 +590,6 @@ def legnagyobb_kereso(x, *args):
     
     
 print(legnagyobb_kereso(1, 19, 11, 7, 17))
-'''    
-    
 def osszehasonlit(szam1, szam2):
   if szam1 > szam2:
         print(f"A nagyobb szám: {szam1}")
@@ -602,3 +600,54 @@ def osszehasonlit(szam1, szam2):
 elsoszam = 10
 masodikszam = 15
 osszehasonlit(elsoszam, masodikszam)
+
+
+
+
+
+print("_________________________"*3)
+
+
+
+
+
+
+
+def legrövidebb_szo():
+    szavak = []
+    for i in range(3):
+        szo = input(f"Kérem, adjon meg egy szót ({i+1}. szó): ")
+        szavak.append(szo)
+
+    legrövidebb = min(szavak, key=len)
+    print(f"A legrövidebb szó: {legrövidebb}")
+
+legrövidebb_szo()
+
+print("_________________________"*3)
+
+
+
+'''   
+
+def festek_kalkulator(x, y):
+            """
+            Kiszámolja az adott falfelület festéséhez
+            szükséges festék mennyiségét
+            """
+t = x * y
+l = t * 0.13
+return l
+    
+    
+        # Függvény hívása
+liter = festek_kalkulator(5, 2)
+    
+        # A függvény hívása lehet egy kifejezés része is
+ar = festek_kalkulator(5, 2) * 700
+    
+      
+
+
+
+
