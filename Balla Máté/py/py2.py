@@ -467,7 +467,7 @@ for szam in lista:
 print(f'A legkisebb szám a listában: {legkisebb}')
 print(f'A legnagyobb szám a listában: {legnagyobb}')  
 
-'''
+
 list = []
 szo = input("Adj meg szavakat: ")
 
@@ -590,5 +590,15 @@ def legnagyobb_kereso(x, *args):
     
     
 print(legnagyobb_kereso(1, 19, 11, 7, 17))
+'''    
     
-    
+def osszehasonlit(szam1, szam2):
+  if szam1 > szam2:
+        print(f"A nagyobb szám: {szam1}")
+  elif szam2 > szam1:
+        print(f"A nagyobb szám: {szam2}")
+  else:
+        print("A két szám egyenlő.")
+elsoszam = 10
+masodikszam = 15
+osszehasonlit(elsoszam, masodikszam)
