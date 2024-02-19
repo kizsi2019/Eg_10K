@@ -590,8 +590,6 @@ def legnagyobb_kereso(x, *args):
     
     
 print(legnagyobb_kereso(1, 19, 11, 7, 17))
-'''    
-    
 def osszehasonlit(szam1, szam2):
   if szam1 > szam2:
         print(f"A nagyobb szám: {szam1}")
@@ -602,3 +600,151 @@ def osszehasonlit(szam1, szam2):
 elsoszam = 10
 masodikszam = 15
 osszehasonlit(elsoszam, masodikszam)
+
+
+
+
+
+print("_________________________"*3)
+
+
+
+
+
+
+
+def legrövidebb_szo():
+    szavak = []
+    for i in range(3):
+        szo = input(f"Kérem, adjon meg egy szót ({i+1}. szó): ")
+        szavak.append(szo)
+
+    legrövidebb = min(szavak, key=len)
+    print(f"A legrövidebb szó: {legrövidebb}")
+
+legrövidebb_szo()
+
+print("_________________________"*3)
+
+
+def festek_kalkulator(x, y):
+         
+  t = x * y
+  l = t * 0.13
+  return l
+
+liter = festek_kalkulator(5, 2)
+    
+       
+ar = festek_kalkulator(5, 2) * 700
+    
+      
+
+
+
+
+def szamolo(a, b, c=100):
+           
+  return (a+b)*c
+    
+    
+        # alapértelmezett paraméter használata
+print(szamolo(1, 7))
+    
+        # alapértelmezett paraméter felülírása
+print(szamolo(1, 7, 10000))
+    
+        # név szerinti paraméter átadás
+print(szamolo(c=10000, a=1, b=7))
+
+
+
+
+
+
+def legnagyobb_kereso(x, *args):
+       
+  legnagyobb = x
+
+  for szam in args:
+    if szam > legnagyobb:
+      legnagyobb = szam
+  return legnagyobb
+    
+    
+print(legnagyobb_kereso(1, 19, 11, 7, 17))
+    
+
+
+
+def osszegzo(x,*args):
+  osszeg = x
+  for szam in args:
+    osszeg += szam
+  return osszeg
+
+print(osszegzo(1,2,3,100,10))
+ 
+lista = [2, 5, 3, 9]
+
+def paros_e(lista):
+    for elem in lista:
+        if elem % 2 == 0:
+            return True
+    return False
+
+print(paros_e(lista))
+
+
+
+
+lista = []
+szam = int(input("adj meg egy pzitiv szamot"))
+
+while szam >= 0:
+  lista.append(szam)
+  szam = int(input("adj meg egy pzitiv szamot"))
+print(lista)
+
+def haromal_oszthato(lista):
+  darab = 0
+  for elem in lista:
+    if elem % 3 == 0:
+      darab +=1
+    return darab
+
+print(haromal_oszthato(lista))
+
+'''  
+print("_________________________"*3)
+    # Local (function) scope
+
+def negyzet(a):
+  print(a)
+  return a ** 2
+
+
+print(negyzet(3))
+
+
+
+
+
+    # Global (module) scope
+
+def negyzet(a):
+  print(f'A negyzet függvényen belül: {a}')
+  return a ** 2
+
+
+def kob(a):
+  print(f'A kob függvényen belül: {a}')
+  return a ** 3
+
+
+a = 0
+print(f'A függvényen kívül: {a}')
+print(negyzet(2))
+print(kob(3))
+  
+
