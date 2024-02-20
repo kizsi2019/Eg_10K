@@ -715,7 +715,6 @@ def haromal_oszthato(lista):
 
 print(haromal_oszthato(lista))
 
-'''  
 print("_________________________"*3)
     # Local (function) scope
 
@@ -748,3 +747,59 @@ print(negyzet(2))
 print(kob(3))
   
 
+
+    # Enclosing (nonlocal) scope
+
+def kulso_fgv():
+  szam = 17
+        
+  def belso_fgv():
+    print(f'A belső függvényből {szam}')
+        
+    belso_fgv()
+    
+    
+kulso_fgv()    
+
+    # Built-in scope
+
+print(len(dir(__builtins__)))
+
+
+def negyzet(a):
+  return a ** 2
+
+
+def main():
+  szam = 17
+  print(negyzet(2))
+
+main()
+  
+  
+'''  
+
+
+def main():
+    import random
+
+    tippek_szama= 0
+    kitalalando = random.randint(1, 10)
+
+  
+    tipp = int(input("Tippelj egy egész számot 1 és 10 között: "))
+
+   
+    while True():
+        tippek_szama = tippek_szama+1
+        if tipp < kitalalando:
+            print("Tipped alacsony.")
+            tipp = int(input("Tippelj egy egész számot 1 és 10 között: "))
+        elif tipp > kitalalando:
+            print("Tipped magas.")
+            tipp = int(input("Tippelj egy egész számot 1 és 10 között: "))
+        else:
+            print("Gratulálok, eltaláltad! Viszontlátás!")
+
+
+main()
