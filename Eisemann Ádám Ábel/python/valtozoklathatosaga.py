@@ -1,6 +1,6 @@
 
     # Local (function) scope
-'''''
+
 def negyzet(a):
     print(a)
     return a ** 2
@@ -46,12 +46,11 @@ kulso_fgv()
 # Built-in scope
 
 print(len(dir(__builtins__)))    
-''''' 
+
   
 
 def negyzet(a):
     return a ** 2
-
 
 def main():
     szam = 17
