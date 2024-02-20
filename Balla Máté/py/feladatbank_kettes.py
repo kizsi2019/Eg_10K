@@ -51,3 +51,18 @@ def atlag(szamoklista):
     return atlag
 atlag_ertek = atlag(szamok2)
 print(f"A számlista átlaga: {atlag_ertek}")
+
+"""
+6.
+"""
+szamok3 = [12,36,68,95,47,20,52,13,31,65]
+
+def kulonbseg(szamlista):
+    legnagyobb = max(szamlista)
+    legkisebb = min(szamlista)
+    kulonbseg = legnagyobb - legkisebb
+    return kulonbseg
+
+
+eredmeny = kulonbseg(szamok3)
+print(f"A legnagyobb és legkisebb szám közötti különbség: {eredmeny}")
