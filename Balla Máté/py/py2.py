@@ -495,7 +495,8 @@ koszont_ket_nevvel('Nóra', 'Ádám')
     
 
 def osszead(x, y):
-	    eredmeny = x + y
+  eredmeny = x + y
+eredmeny = 0
 print('A két szám összege: ', eredmeny)
 
 
