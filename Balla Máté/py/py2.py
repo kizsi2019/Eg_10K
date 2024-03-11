@@ -1,4 +1,4 @@
-'''
+
 szam = int(input("adjmeg egy szamot"))
 darab_karakter = 1
 sor = 1
@@ -9,7 +9,7 @@ while sor <= szam/2:
           oszlop = oszlop + 1
       print('')
       darab_karakter = darab_karakter + 1
-     sor = sor + 1     
+      sor = sor + 1     
 darab_karakter = szam/2
 sor = 1
 while sor <= szam/2:
@@ -53,7 +53,7 @@ while gyumolcs != '':
       # hozzáfűzi a listahoz
       gyumolcsok.append(gyumolcs)
   
-  print(gyumolcsok)  
+print(gyumolcsok)  
  
 import random
 
@@ -345,13 +345,7 @@ while(-5 <=bszam <= 5):
 
 print(f"a szamok:{szamok}")
 print("Az osszeguk:",osszeg)
-'''
 
-'''
-    Az ELDÖNTÉS esetében azt vizsgáljuk,
-    hogy szerepel-e egy bizonyos tulajdonságú elem az adatsorban (itt a listában).
-    
-    A program azt vizsgálja, hogy van-e hárommal osztható szám a listában.
     
 
 import random 
@@ -385,10 +379,7 @@ while index < len(szo2) and not talalat:
     break
   
 
-    A SZÁMLÁLÁS esetében azt vizsgáljuk, hogy egy bizonyos tulajdonságú elemből 
-    hány darab van az adatsorban (itt a listában).
 
-    A program azt vizsgálja, hogy hány darab hárommal osztható szám van a listában.
    
 lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
 
@@ -413,8 +404,7 @@ for i in range(5):
 
 print(list)
 print(list_paros)
- '''
-'''
+
 szavak = ["alma","retek","répa","mogyoro","asztal"]
 darab = 0 
 for betu in szavak:
@@ -430,12 +420,7 @@ while index < len(szavak) and not talalat:
             talalat = True
         index = index + 1 
 
-'''
-'''
-    A SZÉLSŐÉRTÉK MEGHATÁROZÁSA esetében azt vizsgáljuk, hogy melyik a legkisebb, 
-    illetve a legnagyobb érték az adatsorban (itt a listában).
-'''
-'''
+
 lista = [12, 5, 4, 8, 9, 11, 10, 12, 6]
 
 legkisebb = lista[0]
@@ -510,7 +495,8 @@ koszont_ket_nevvel('Nóra', 'Ádám')
     
 
 def osszead(x, y):
-	    eredmeny = x + y
+  eredmeny = x + y
+eredmeny = 0
 print('A két szám összege: ', eredmeny)
 
 
@@ -776,9 +762,6 @@ def main():
 
 main()
   
-  
-'''  
-
 
 def main():
     import random
