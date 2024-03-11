@@ -51,3 +51,37 @@ def atlag(szamoklista):
     return atlag
 atlag_ertek = atlag(szamok2)
 print(f"A számlista átlaga: {atlag_ertek}")
+
+"""
+6.
+"""
+szamok3 = [12,36,68,95,47,20,52,13,31,65]
+
+def kulonbseg(szamlista):
+    legnagyobb = max(szamlista)
+    legkisebb = min(szamlista)
+    kulonbseg = legnagyobb - legkisebb
+    return kulonbseg
+
+
+eredmeny = kulonbseg(szamok3)
+print(f"A legnagyobb és legkisebb szám közötti különbség: {eredmeny}")
+
+"""
+8.
+"""
+def atlag_es_nagyobb_indexek(szamlista):
+    if not szamlista:
+        return "A lista üres, nincs szám a számításhoz."
+    
+    osszeg = sum(szamlista)
+    atlag = osszeg / len(szamlista)
+    
+    nagyobb_indexek = [i for i, szam in enumerate(szamlista) if szam > atlag]
+    
+    return f"A számok átlaga: {atlag:.2f}, és a nagyobb számok indexei: {nagyobb_indexek}"
+
+
+szamok = [10, 20, 15, 30, 25]
+eredmeny = atlag_es_nagyobb_indexek(szamok)
+print(eredmeny)
