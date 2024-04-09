@@ -1,4 +1,4 @@
-liast = [1,2,3,4,10]
+lista = [1,2,3,4,10]
 
 def paros_e(lista):
     for elem in lista:
