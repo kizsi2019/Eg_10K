@@ -69,7 +69,7 @@ print(globalis_valtozo)
 print(lokalis_valtozo) # hibát eredményez !!!
     
     
-    
+
     
   
     
