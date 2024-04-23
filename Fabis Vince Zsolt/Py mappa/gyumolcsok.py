@@ -1,0 +1,1 @@
+alma, szilva, körte, barack
