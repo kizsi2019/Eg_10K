@@ -4,10 +4,9 @@ darabszam = ""
 
 
 def atlag(szamlista):
-    darabszam = szamlista.count
+    osszeg = 0
     for szam in szamlista:
         osszeg += szam
-    atlag = osszeg / darabszam
-    return atlag
+    return osszeg / len(szamlista)
 
-print(atlag)
+print(atlag(szamlista))
