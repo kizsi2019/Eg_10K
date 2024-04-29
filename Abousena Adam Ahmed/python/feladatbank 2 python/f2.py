@@ -1,7 +1,10 @@
-'''2. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a listában található legnagyobb számot.'''
-def get_max_number(numbers):
-    return max(numbers)
+def legnagyobb_szam(lista):
+    max_szam = lista[0]
+    for szam in lista:
+        if szam > max_szam:
+            max_szam = szam
+    return max_szam
 
-numbers = [1, 2, 3, 4, 5, 6]
-print(get_max_number(numbers))  
-
+szamok = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+legnagyobb = legnagyobb_szam(szamok)
+print(legnagyobb) # 10
