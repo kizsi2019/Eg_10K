@@ -7,4 +7,4 @@ def paros_szamok(lista):
 
 szamok = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 parosak = paros_szamok(szamok)
-print(parosak) # [2, 4, 6 ,8 ,10]
+print(parosak)
