@@ -47,6 +47,3 @@ szam(szamok)
 
 #9. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a lista elemeit megfordítva.
 
-
--
-+-+
