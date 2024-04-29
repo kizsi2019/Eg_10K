@@ -36,5 +36,3 @@ with open("szabad_szobak.txt", "w") as f:
         f.write("\n".join(szabad_szobak_fajlba))
     else:
         f.write("Nincsenek szabad szobák.")
-
-print(datum)
