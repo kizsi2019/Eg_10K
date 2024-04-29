@@ -1,5 +1,7 @@
 def szavak_szama(szoveg):
-    return len(szoveg.split())
+    szavak = szoveg.split()
+    return len(szavak)
 
-be_szoveg = "Ez egy példa szöveg a szavak számának meghatározására."
-print(szavak_szama(be_szoveg))  
+mondat = "Ez egy példa mondat."
+szavak = szavak_szama(mondat)
+print(szavak)
