@@ -37,3 +37,4 @@ with open("szabad_szobak.txt", "w") as f:
     else:
         f.write("Nincsenek szabad szobák.")
 
+print(datum)
