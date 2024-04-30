@@ -1,0 +1,3 @@
+Telefon: 2 db
+Laptop: 3 db
+Tablet: 2 db
