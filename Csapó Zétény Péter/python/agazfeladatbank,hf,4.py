@@ -30,7 +30,7 @@ szabad_szobak_fajlba = []
 for szoba in szabad_szobak:
     szabad_szobak_fajlba.append(f"{szoba.azonosito} ({szoba.ferohely} fő)")
 
-with open("szabad_szobak.txt", "w") as f:
+with open("szabad_szobak.txt", "w", encoding="utf8") as f:
     f.write(f"Szabad szobák a következő dátumra: {datum}\n\n")
     if szabad_szobak_fajlba:
         f.write("\n".join(szabad_szobak_fajlba))
