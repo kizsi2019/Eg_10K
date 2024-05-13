@@ -9,6 +9,7 @@ class Kor:
 
     def kerulet(self):
         return 2 * self.pi * self.r
+
 r = float(input("Kérem a kör sugarát"))
 kor = Kor(r)
 print(f"A kör területe: {kor.terulet()}")

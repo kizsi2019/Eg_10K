@@ -15,6 +15,6 @@ class Haromszog:
 a = float(input("Kérem a háromszög 'a' oldalát: "))
 b = float(input("Kérem a háromszög 'b' oldalát: "))
 c = float(input("Kérem a háromszög 'c' oldalát: "))
-h = Haromszog()
+h = Haromszog(a,b,c)
 print(f"A háromszög területe: {h.terulet()}")
 print(f"A háromszög kerülete: {h.kerulet()}")
