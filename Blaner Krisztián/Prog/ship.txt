@@ -1,0 +1,31 @@
+nev;ev;tulaj_nev;km
+
+D7-class;1970;Matt Jefferies;20
+K't'inga-class;1970;Andrew Probert;25
+Bird-of-Prey classes;1979;Leonard Nimoy;30
+Vor'cha-class;1982;Greg Jein;15
+Negh'Var-class;1984;Rick Sternbach;10
+D4-class;1986;John Eaves;18
+Raptor-class;1982;Doug Drexler;50
+D5-class;1999;Pierre Drolet;36
+Bird-of-Prey;1999;John Eaves;22
+D7;1970;Matt Jefferies;20
+K't'inga;1970;Andrew Probert;25
+Bird-of-Prey;1979;Leonard Nimoy;30
+Vor'cha;1982;Greg Jein;15
+Negh'Var;1984;Rick Sternbach;10
+D4;1986;John Eaves;18
+Raptor;1992;Doug Drexler;50
+D5;1999;Pierre Drolet;36
+Bird-of-Prey;1999;John Eaves;22
+D9;2002;Rick Sternbach;28
+K'Vort;2005;Andy Probert;32
+Raptor;2008;Doug Drexler;45
+B'rel;2010;Andrew Probert;38
+K'Vort;2013;Andy Probert;27
+D'Kora;2015;Doug Drexler;55
+Bird-of-Prey;2016;John Eaves;20
+K'Vort;2018;Andy Probert;30
+Raptor;2020;Doug Drexler;42
+D12;2022;Rick Sternbach;33
+B'rel;2024;Andrew Probert;40
